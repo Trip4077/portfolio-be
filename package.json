@@ -4,6 +4,8 @@
   "description": "Backend For my personal portfolio application",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
+    "server": "nodemon index.js",
     "test": "cross-env DB_CONNECT=testing jest --watchAll --verbose"
   },
   "jest": {
