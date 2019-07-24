@@ -1,4 +1,4 @@
-const db = require('../../dbConfig');
+const db = require('../../data/dbConfig');
 
 const getAllProjects = async () => {
     return await db('projects');

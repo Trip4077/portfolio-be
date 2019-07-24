@@ -1,4 +1,4 @@
-const db = require('../../dbConfig');
+const db = require('../../data/dbConfig');
 
 const getAllSkills = async () => {
     return await db('skills');
