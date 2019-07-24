@@ -21,7 +21,7 @@ const deleteSkill = async id => {
                     .del();
 }
 
-module.exportrs = {
+module.exports = {
     getAllSkills,
     addSkill,
     editSkill,

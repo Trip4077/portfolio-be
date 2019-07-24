@@ -21,7 +21,7 @@ const deleteMedia = async id => {
                     .del();
 }
 
-module.exportrs = {
+module.exports = {
     getAllMedia,
     addMedia,
     editMedia,
